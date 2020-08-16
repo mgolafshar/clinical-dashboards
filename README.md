@@ -2,10 +2,26 @@
 
 ![biomarker](images/header.jpg)
 
-This is a gentle introduction to building dashboards for monitoring clinical trials using [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/), an R package built and maintained by the folks at [RStudio](https://rstudio.com/). 
+Deploying dashboards for monitoring clinical trials has many benefits. Dashboards provide a simple way for investigators to keep track of study accrual and stratification factors. They provide a centralized way of monitoring the safety of a the trial by tracking realtime feedback on adverse events experienced by patients. As trial protocols may have associated quality of life surveys that are administered at key timepoints, dashboards provide a way of tracking overall completion rates as well as patient level information assisting study staff in monitoring potential protocol deviations.
 
-Utilizing dahboards for monitoring clinical trials has many benefits. Dashboards provide a simple way for investigators to keep track of study accrual and stratification factors. They provide a centralized way of monitoring the safety of a the trial by tracking realtime feedback on adverse events experienced by patients. As trial protocols may have associated quality of life surveys that are administered at keep timepoints, dashboards provide a way of tracking overall completion rates as well as patient level information assisting study staff in monitoring potential protocol deviations.
+The dashboard we will build below utilizes the [R programming language](https://www.r-project.org/about.html) and [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/), an R package that leverages syntax from [RMarkdown](https://rmarkdown.rstudio.com/index.html), a report authoring framework, to layout the structural elements of a dashboard. The great thing about this set of tools is they are relatively quick to get up and running, and, they are free to download. That's right! __Free!!!__  
 
+
+## Setting up R and RStudio
+Before we can get started building our dashboard you will need to have R installed on your computer.
+- Download R from [here](https://cloud.r-project.org/).  
+
+We will also need RStudio, a graphical interface to R.
+- Download the free version of RStudio [here](https://rstudio.com/products/rstudio/download/#download).
+
+## Flexdashboard structure
+The anatomy of a dashboard built with the Flexdashboard package contains four basic elements; 
+1) the YAML - (blueprint for how the file is rendered)
+2) RMarkdown - (text and structure)
+3) Code - (all the stuff you want to put in your dashboard)
+4) Shiny - (adds interactivity)
+
+We will unpack each of these items as we begin building our dashboard. 
 
 
 ## Installing the necessary packages
