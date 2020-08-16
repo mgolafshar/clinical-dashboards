@@ -12,10 +12,11 @@ Before we can get started building our dashboard you will need to have R install
 - Download R from [here](https://cloud.r-project.org/).  
 
 We will also need RStudio, a graphical interface to R.
-- Download the free version of RStudio [here](https://rstudio.com/products/rstudio/download/#download).
+- Download the free version of RStudio from [here](https://rstudio.com/products/rstudio/download/#download).  
+You will want to make sure you are familiar with the RStudio environment before getting started. Some really nice introductions to the RStudio environment can be found [here](https://moderndive.netlify.app/1-1-r-rstudio.html) and [here](https://datacarpentry.org/genomics-r-intro/01-introduction/index.html).
 
 ## Flexdashboard structure
-The anatomy of a dashboard built with the Flexdashboard package contains four basic elements; 
+A dashboard built with flexdashboard contains four basic elements.
 1) the YAML - (blueprint for how the file is rendered)
 2) RMarkdown - (text and structure)
 3) Code - (all the stuff you want to put in your dashboard)
@@ -26,11 +27,10 @@ We will unpack each of these items as we begin building our dashboard.
 
 ## Installing the necessary packages
 
-You can install the currently-released version from CRAN with this R
-command:
+Now that you have R and RStudio up and running, you will need to install the a few packages that will help us on our way to building our first dashboard. You can install the currently-released versions of the packages we will use by running the following command in the R console.
 
 ``` r
-install.packages("flexdashboard")
+install.packages(c("flexdashboard","tidyverse", "shiny"))
 ```
 
 ## Creating a new dashboard
