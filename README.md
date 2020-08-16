@@ -7,13 +7,26 @@ Deploying dashboards for monitoring clinical trials has many benefits. Dashboard
 The dashboard we will build below utilizes the [R programming language](https://www.r-project.org/about.html) and [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/), an R package that leverages syntax from [RMarkdown](https://rmarkdown.rstudio.com/index.html), a report authoring framework, to layout the structural elements of a dashboard. The great thing about this set of tools is they are relatively quick to get up and running, and, they are free to download. That's right! __Free!!!__  
 
 
-## Setting up R and RStudio
+## Setting up R & RStudio
 Before we can get started building our dashboard you will need to have R installed on your computer.
 - Download R from [here](https://cloud.r-project.org/).  
 
-We will also need RStudio, a graphical interface to R.
+We will also need the RStudio IDE _(Integrated Development Envirmonment)_. Think of RStudio as a nice wrapper around the R engine, making it easier to navigate and get things done.
 - Download the free version of RStudio from [here](https://rstudio.com/products/rstudio/download/#download).  
-You will want to make sure you are familiar with the RStudio environment before getting started. Some really nice introductions to the RStudio environment can be found [here](https://moderndive.netlify.app/1-1-r-rstudio.html) and [here](https://datacarpentry.org/genomics-r-intro/01-introduction/index.html).
+
+You will want to make sure you are familiar with the RStudio IDE  before getting started. Some really nice introductions can be found [here](https://moderndive.netlify.app/1-1-r-rstudio.html) and [here](https://datacarpentry.org/genomics-r-intro/01-introduction/index.html).
+
+## Installing the necessary packages
+
+Now that you have R and RStudio up and running, you will need to install the a few packages that will help us on our way to building our first dashboard. You can install the currently-released versions of the packages we will use by running the following command in the R console.
+
+``` r
+install.packages(c("flexdashboard","tidyverse", "shiny"))
+```
+
+## Getting started
+Let's start by opening a new flexdashboard file by going to __File__ -> __New File__ and choosing __RMarkdown File__ from the dropdown list.
+![new file](images/newRmd.jpg)
 
 ## Flexdashboard structure
 A dashboard built with flexdashboard contains four basic elements.
@@ -25,13 +38,7 @@ A dashboard built with flexdashboard contains four basic elements.
 We will unpack each of these items as we begin building our dashboard. 
 
 
-## Installing the necessary packages
 
-Now that you have R and RStudio up and running, you will need to install the a few packages that will help us on our way to building our first dashboard. You can install the currently-released versions of the packages we will use by running the following command in the R console.
-
-``` r
-install.packages(c("flexdashboard","tidyverse", "shiny"))
-```
 
 ## Creating a new dashboard
 
