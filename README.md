@@ -84,7 +84,6 @@ A dashboard built with flexdashboard contains four basic elements.
 3) Code - (all the stuff you want to put in your dashboard)
 4) Shiny - (adds interactivity)
 
-We will unpack each of these items as we begin building our dashboard. 
 
 
 For deployment options, see https://shiny.rstudio.com/deploy/). 
