@@ -25,8 +25,54 @@ install.packages(c("flexdashboard","tidyverse", "shiny"))
 ```
 
 ## Getting started
-Let's start by opening a new flexdashboard file by going to __File__ -> __New File__ and choosing __RMarkdown File__ from the dropdown list.
-![new file](images/newRmd.jpg)
+Let's start by opening a new flexdashboard file by going to __File__ -> __New File__ and choosing __RMarkdown File__ from the dropdown list. That will open up the following window. 
+
+<img src="images/newRmd.jpg" width="600">  
+
+Select __From Template__ on the left and __Flex Dashboard__ from the template window on the right, then hit __OK__.
+
+That will open up a new RMarkdown file with some placeholder code that should look like this.
+
+````
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+````
+
+And, just like that, we have our first _(template)_ dashboard.
+
 
 ## Flexdashboard structure
 A dashboard built with flexdashboard contains four basic elements.
@@ -38,17 +84,6 @@ A dashboard built with flexdashboard contains four basic elements.
 We will unpack each of these items as we begin building our dashboard. 
 
 
+For deployment options, see https://shiny.rstudio.com/deploy/). 
 
 
-## Creating a new dashboard
-
-## Examples
-
-
-Sample dataset:
-
-``` r
-
-```
-for deployment options, see https://shiny.rstudio.com/deploy/). 
-## Feedback, issues, and contributions
