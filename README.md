@@ -1,6 +1,5 @@
 # Clinical Trial Dashboards with R and Flexdashboard
 
-
 ![biomarker](images/header.jpg)
 
 This is a gentle introduction to building dashboards for monitoring clinical trials using [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/), an R package built and maintained by the folks at [RStudio](https://rstudio.com/). 
