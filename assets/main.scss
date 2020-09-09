@@ -1,3 +1,7 @@
 ---
 ---
 @import "minima";
+
+body h1:first-child {
+    display: none;
+}
