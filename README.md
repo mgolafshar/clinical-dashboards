@@ -73,7 +73,7 @@ Column {data-width=350}
 ```
 ````
 
-Above your code in the RStudio toolbar you will see a knit button <img src="images/knit.jpg"> with a dropdown list. Select ```Knit to flex_dashboard```. You will be asked to name the new dashboard file and select a place to save the file to. Once complete, the RMarkdown file will render and... just like that... we have our first _(template)_ dashboard. 
+Above your code in the RStudio toolbar you will see a knit button <img src="images/knit.jpg"> with a dropdown list. Select ```Knit to flex_dashboard```. You will be asked to name the new dashboard file and select a place to save the file to. Once complete, the RMarkdown file will render and... just like that... we have our first _(template)_ dashboard. The sample code above can be found [here](https://github.com/mgolafshar/clinical-dashboards/blob/master/code/CodeSample1.Rmd).
 <img src="images/dashboard_template.jpg">  
 
 May not be the most exciting dashboard, but, it's easy to see that with very little effort, we are able to generate the scaffolding for a dashboard where we can start visualizing our clinical data.
