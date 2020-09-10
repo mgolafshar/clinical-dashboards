@@ -1,6 +1,6 @@
 # Clinical Trial Dashboards with R and Flexdashboard
 
-Remove  
+Remove  2
 
 
 ![biomarker](images/header.jpg)
