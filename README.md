@@ -1,4 +1,7 @@
 # Clinical Trial Dashboards with R and Flexdashboard
+<span style="color:grey; font-size:1em;">m.golafshar</span>  
+_Access the code and data for the examples in this document [here](https://github.com/mgolafshar/clinical-dashboards)_    
+
 
 ![biomarker](images/header.jpg)
 
