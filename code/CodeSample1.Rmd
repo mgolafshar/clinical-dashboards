@@ -1,0 +1,41 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+  orientation: columns
+vertical_layout: fill
+---
+  
+```{r setup, include=FALSE}
+# you man need to run the "following "install.packages" line to make sure you have the necessary packages.
+# This only needs to be done once. Uncomment (remove the "#") and run line 13. Then you can comment out th line again.
+
+#install.packages(c("flexdashboard","tidyverse", "shiny"))
+
+library(flexdashboard)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+  
+### Chart A
+  
+```{r}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+  
+### Chart B
+  
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
