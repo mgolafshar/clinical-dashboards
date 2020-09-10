@@ -1,8 +1,5 @@
 # Clinical Trial Dashboards with R and Flexdashboard
 
-Remove  2
-
-
 ![biomarker](images/header.jpg)
 
 Deploying dashboards for monitoring clinical trials has many benefits. Dashboards provide a simple way for investigators to keep track of study accrual and stratification factors. They provide a centralized way of monitoring the safety of a the trial by tracking realtime feedback on adverse events experienced by patients. As trial protocols may have associated quality of life surveys that are administered at key timepoints, dashboards provide a way of tracking overall completion rates as well as patient level information assisting study staff in monitoring potential protocol deviations.
