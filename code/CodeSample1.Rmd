@@ -7,7 +7,7 @@ vertical_layout: fill
 ---
   
 ```{r setup, include=FALSE}
-# You man need to run the "following "install.packages" line to make sure you have the necessary packages.
+# You man need to run the following "install.packages" line to make sure you have the necessary packages.
 # This only needs to be done once. Uncomment (remove the "#") and run line 13. Then you can comment out the line again.
 
 #install.packages(c("flexdashboard","tidyverse", "shiny"))
