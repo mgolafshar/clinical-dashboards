@@ -84,7 +84,7 @@ In order to start customizing our dashboard, it will be helpful to understand th
 
 These four basic elements are:
 1) the YAML
-2) RMarkdown - (text and structure)
+2) RMarkdown  
 3) Code - (all the stuff you want to put in your dashboard)
 4) Shiny - (adds interactivity)
 
@@ -107,7 +107,7 @@ At it's core, the dashboard we are creating is an [RMarkdown](https://rmarkdown.
 
 ![](images/syntax.png)
 
-In our template example, 3 sections (Chart A, Chart B, Chart C) are created by simply adding ````###```` before the name given to each section.  
+In our template example, 3 sections (Chart A, Chart B, Chart C) are created by simply adding ````###```` before the name given to each section. As we begin to customize our own dashboard, we will also use RMarkdown to add text throughout the various sections we create.    
 
 For deployment options, see [https://shiny.rstudio.com/deploy/](https://shiny.rstudio.com/deploy/). 
 
