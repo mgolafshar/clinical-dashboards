@@ -88,6 +88,6 @@ A dashboard built with flexdashboard contains four basic elements.
 
 
 
-For deployment options, see https://shiny.rstudio.com/deploy/). 
+For deployment options, see https://shiny.rstudio.com/deploy/. 
 
 
