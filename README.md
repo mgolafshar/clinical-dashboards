@@ -105,7 +105,7 @@ If this was a standard R Markdown script, we could set the output to a Word docu
 ### RMarkdown  
 At it's core, the dashboard we are creating is an [RMarkdown](https://rmarkdown.rstudio.com/) file (An R-centric implementation of the [Markdown language](https://www.markdownguide.org/)). The nice thing about RMarkdown is that it's very easy to weave narrative text in with code and output, which makes it especially useful for reporting purposes. Flexdashboard borrows syntactical elements from RMarkdown to create the structure of the dashboard.  
 
-
+![](images/syntax.png)
 
 
 For deployment options, see [https://shiny.rstudio.com/deploy/](https://shiny.rstudio.com/deploy/). 
