@@ -107,6 +107,7 @@ At it's core, the dashboard we are creating is an [RMarkdown](https://rmarkdown.
 
 ![](images/syntax.png)
 
+In our template example, 3 sections (Chart A, Chart B, Chart C) are created by simply adding ````###```` before the name given to each section.  
 
 For deployment options, see [https://shiny.rstudio.com/deploy/](https://shiny.rstudio.com/deploy/). 
 
