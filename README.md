@@ -108,6 +108,6 @@ At it's core, the dashboard we are creating is an [RMarkdown](https://rmarkdown.
 
 
 
-For deployment options, see https://shiny.rstudio.com/deploy/. 
+For deployment options, see [](https://shiny.rstudio.com/deploy/). 
 
 
