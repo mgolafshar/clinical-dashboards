@@ -103,7 +103,7 @@ output:
 If this was a standard R Markdown script, we could set the output to a Word document or PDF, etc., but in order for it to render as a dashboard, we need to specify flex_dashboard as the output type in the YAML. We also can see a couple of options are supplied instructing the file to render the dashboard with a column layout and to fill the page vertically. More information about various layout options can be found [here](https://rmarkdown.rstudio.com/flexdashboard/layouts.html).  
 
 ### RMarkdown  
-At it's core, the dashboard we are creating is an [RMarkdown](https://rmarkdown.rstudio.com/) file (An R-centric implementation of the [Markdown language](https://www.markdownguide.org/)). The nice thing about RMarkdown is that it's very easy to weave narrative text in with code and output, which makes it especially usefull for reporting purposes. Flexdashboard borrows syntactical elements from RMarkdown to create the structure of the dashboard.  
+At it's core, the dashboard we are creating is an [RMarkdown](https://rmarkdown.rstudio.com/) file (An R-centric implementation of the [Markdown language](https://www.markdownguide.org/)). The nice thing about RMarkdown is that it's very easy to weave narrative text in with code and output, which makes it especially useful for reporting purposes. Flexdashboard borrows syntactical elements from RMarkdown to create the structure of the dashboard.  
 
 
 
