@@ -73,21 +73,41 @@ Column {data-width=350}
 ```
 ````
 
-Above your code in the RStudio toolbar you will see a knit button <img src="images/knit.jpg"> with a dropdown list. Select ```Knit to flex_dashboard```. You will be asked to name the new dashboard file and select a place to save the file to. Once complete, the RMarkdown file will render and... just like that... we have our first _(template)_ dashboard. 
+Above your code in the RStudio toolbar you will see a knit button <img src="images/knit.jpg"> with a dropdown list. Select ```Knit to flex_dashboard```. You will be asked to name the new dashboard file and select a place to save the file to. Once complete, the RMarkdown file will render and... just like that... we have our first _(template)_ dashboard. The sample code above can be found [here](https://github.com/mgolafshar/clinical-dashboards/blob/master/code/CodeSample1.Rmd).
 <img src="images/dashboard_template.jpg">  
 
 May not be the most exciting dashboard, but, it's easy to see that with very little effort, we are able to generate the scaffolding for a dashboard where we can start visualizing our clinical data.
 
 
-## Flexdashboard structure
-A dashboard built with flexdashboard contains four basic elements.
-1) the YAML - (blueprint for how the file is rendered)
+## Flexdashboard Structure
+In order to start customizing our dashboard, it will be helpful to understand the 4 key elements that will bring our dashboard to life and make it interactive.  
+
+These four basic elements are:
+1) the YAML
 2) RMarkdown - (text and structure)
 3) Code - (all the stuff you want to put in your dashboard)
 4) Shiny - (adds interactivity)
 
+### YAML  
+The YAML is the blueprint for how the file is to be rendered and is typically found at the top of your script where it begins and ends with ````---````. In the template example above the YAML contains two key pieces of information; the title of the Dashboard, and the output type.  
+````
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+````
+
+If this was a standard R Markdown script, we could set the output to a Word document or PDF, etc., but in order for it to render as a dashboard, we need to specify flex_dashboard as the output type in the YAML. We also can see a couple of options are supplied instructing the file to render the dashboard with a column layout and to fill the page vertically. More information about various layout options can be found [here](https://rmarkdown.rstudio.com/flexdashboard/layouts.html).  
+
+### RMarkdown  
+At it's core, the dashboard we are creating is an [RMarkdown](https://rmarkdown.rstudio.com/) file (An R-centric implementation of the [Markdown language](https://www.markdownguide.org/)). The nice thing about RMarkdown is that it's very easy to weave narrative text in with code and output, which makes it especially useful for reporting purposes. Flexdashboard borrows syntactical elements from RMarkdown to create the structure of the dashboard.  
 
 
-For deployment options, see https://shiny.rstudio.com/deploy/). 
+
+
+For deployment options, see [https://shiny.rstudio.com/deploy/](https://shiny.rstudio.com/deploy/). 
 
 
